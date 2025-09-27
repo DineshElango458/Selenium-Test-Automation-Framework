@@ -1,0 +1,19 @@
+{
+  "environments": {
+    "DEV": {
+      "url": "http://www.automationpractice.pl/index.php",
+      "MAX_ATTEMPT": 3,
+      "CURRENT_ATTEMPT": 1
+    },
+    "QA": {
+      "url": "http://www.automationpractice.pl/index.php",
+      "MAX_ATTEMPT": 3,
+      "CURRENT_ATTEMPT": 1
+    },
+    "QF1": {
+      "url": "http://www.automationpractice.pl/index.php",
+      "MAX_ATTEMPT": 3,
+      "CURRENT_ATTEMPT": 1
+    }
+  }
+}
