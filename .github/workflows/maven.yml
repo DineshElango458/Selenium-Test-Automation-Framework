@@ -63,5 +63,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: public/extent-reports/
-        token: ${{ secrets.SELENUMTAF }}
+        token: ${{ secrets.SELENIUMTESTAF }}
         clean: true
