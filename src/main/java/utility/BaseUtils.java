@@ -103,9 +103,9 @@ public class BaseUtils {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("HH-mm-ss");
         String format = formatter.format(date);
-        String relativePath = "./ScreenShot/"+ name + " - " + format + ".png";
+        String relativePath = "/ScreenShot/"+ name + " - " + format + ".png";
         String absolutePath = System.getProperty("user.dir") + relativePath;
-        File f = new File(relativePath);
+        File f = new File(absolutePath);
         try {
             FileUtils.copyFile(screenshotAs, f);
         } catch (IOException e) {
