@@ -10,7 +10,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <browser>chrome</browser>
+        <browser>edge</browser>
         <isLambdaTest>false</isLambdaTest>
         <isHeadless>false</isHeadless>
     </properties>
@@ -91,6 +91,18 @@
         <groupId>com.aventstack</groupId>
         <artifactId>extentreports</artifactId>
         <version>5.1.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.awaitility/awaitility -->
+    <dependency>
+        <groupId>org.awaitility</groupId>
+        <artifactId>awaitility</artifactId>
+        <version>4.3.0</version>
     </dependency>
 </dependencies>
 </project>

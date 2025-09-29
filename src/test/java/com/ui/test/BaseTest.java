@@ -23,7 +23,7 @@ public class BaseTest {
     void setUp(
             @Optional("false") boolean isLambdaTest,
             @Optional("false") boolean isHeadless,
-            @Optional("edge") String browser, ITestResult result) throws MalformedURLException {
+            @Optional("firefox") String browser, ITestResult result) throws MalformedURLException {
 
         this.isLambdaTest = isLambdaTest;
         this.isHeadless = isHeadless;
