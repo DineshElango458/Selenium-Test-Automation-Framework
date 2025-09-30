@@ -33,7 +33,7 @@ public class SearchProductPage extends BaseUtils {
     }
 
     public ProductCheckoutPage clickFirstProduct() {
-        click(CLICK_FIRST_PRODUCT);
+        clickOn(CLICK_FIRST_PRODUCT);
         return new ProductCheckoutPage(getDriver());
     }
 }
